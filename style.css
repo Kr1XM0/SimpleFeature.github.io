@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100dvh;
+  background: url('resources/Background_image@3x.png');
+  background-repeat:repeat;
+  background-position:center; 
+  background-size: contain;
+  background-color: #121826;
+}
+
+section {
+
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+header h3 {
+  margin-top: 50px;
+  font-size: 2.5rem;
+  color: #E5E7EB;
+  font-weight: 700;
+}
+header p {
+  font-size: 1rem;
+  color: #9DA3AE;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.card {
+  background-color: #212936;
+  border-radius: 15px;
+  padding: 25px;
+  width: 320px;
+  margin-top: 50px;
+  
+}
+.card-circleEmoji {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCEED8;
+  border-radius: 50%;
+}
+.card-circleEmoji.gol {
+  background-color: #DEE9FC;
+}
+.card-circleEmoji.chat {
+  background-color: #FBE5E6 ;
+}
+.emoji{
+  font-size: 1.25rem;
+}
+
+.card h5 {
+  font-size: 1.25rem;
+  color: #E5E7EB;
+  margin: 20px 0 25px 0;
+  font-weight: 700;
+}
+.card-mid-text {
+  font-size: 1.10rem;
+  margin-bottom: 20px;
+  color: #D2D5DA;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
